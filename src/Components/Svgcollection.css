@@ -1,0 +1,19 @@
+
+#svgcontrol{
+    display: flex;
+    margin-left: 15vh;
+    margin-top: 15vh;
+}
+#svgcontrol div{
+    margin-right: 20vh;
+  
+}
+.carding{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#carouselresponsive{
+
+}

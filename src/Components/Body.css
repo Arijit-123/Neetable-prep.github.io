@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600&family=Manrope:wght@800&display=swap');
+#capr{
+    
+    height: 67vh;
+    width: 100vw;
+    display: flex;
+   margin-top: 16vw;
+  
+    flex-direction: column;
+}
+#bodybar{
+    background-image: linear-gradient(to right, rgb(28, 3, 62), rgb(150, 92, 194));
+    
+}
+#capr p{
+    color: white;
+    font-size: 10vh;
+    margin-top:0px ;
+    font-weight: bold;
+    padding-left: 2vw;
+    font-family: 'Manrope', sans-serif;
+}
+#capr p1{
+    color: rgb(176, 169, 169);
+    font-size: 5vh;
+    padding-left: 2vw;
+    
+
+}
+#capr p2{
+    color: rgb(176, 169, 169);
+    font-size: 5vh;
+    padding-left: 2vw;
+}
+#bodybar{
+    display: flex;
+}
+
+#image1 img{
+    width: 60vh;
+    height: 60vw;
+} 
+#image2 img{
+    margin-top: 9vw;
+    width: 60vh;
+    height: 60vw;
+} 
+@media (max-width:960px){
+    #image1 img{
+        display: none;
+    }
+    #image2 img{
+        display: none;
+    }
+}
+#switcher{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+@media (max-width:800px){
+    #capr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+   

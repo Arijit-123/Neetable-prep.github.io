@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600&family=Manrope:wght@800&display=swap');
+
+.first{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+}
+.first div button{
+    background-color: rgb(48, 161, 48);
+    margin-top: 0.5vw;
+    height: 3vw;
+    margin-left: 70vw;
+}
+#mark1 img{
+    margin-top: 1.5vw;
+    width: 18vw;
+    height: 15px;
+    cursor: pointer;
+
+}
+
+#markyu img{
+    width: 4vw;
+    margin-top: 2vw;
+    padding-bottom: 10px;
+}
+
+.nui{
+    display: flex;
+    position: relative;
+    height: 19vh;
+    position: fixed;
+    margin-top: 9vh;
+    background-color: white;
+}
+.nui button{
+    margin-left: 88vw;
+    margin-top: 7vw;
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+    padding-bottom: 10px;
+    margin-left: 20vh;
+    
+}
+#menu ul li{
+    margin-left: 3px;
+}
+#part{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:600px){
+    #menu ul{
+        display: none;
+    }
+    .hamburger{
+        position:fixed;
+        top: 40px;
+        right: 20px;
+        z-index: 10;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        background: none;
+        border: none;
+       
+    }
+    .hamburger-top,
+    .hamburger-middle,
+    .hamburger-bottom
+     {
+        position : absolute;
+        width: 20px;
+        height: 2px;
+        top: 0;
+        left:0;
+        background: #fff;
+       transition: all 0.5s;
+       
+     }
+     .hamburger-middle {
+        transform: translateY(5px);
+     }
+
+     .hamburger-bottom {
+        transform: translateY(10px);
+     }
+     
+     
+
+}
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#navbar1{
+display: flex;
+list-style: none;
+margin-left: 9vw;
+margin-bottom: 10vw;
+font-family: 'Manrope', sans-serif;
+gap: 100vw;
+color: rgb(91, 91, 141);
+font-weight: bold;
+font-size: large;
+margin-top: 5vh;
+}
+
+#text1{
+    margin-top: 2.5vw;
+    margin-left: 1vw;
+    font-size: 2vw;
+    font-family: 'Manrope', sans-serif;
+}
+@media (max-width:800px){
+    #buynow button{
+        width: 20vw;
+        height: 5vw;
+        margin-right: 15px;
+    }
+}

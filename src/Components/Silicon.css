@@ -1,0 +1,61 @@
+#silicon{
+    display: flex;
+    flex-direction: column;
+    
+}
+#silicon p{
+    text-align: center;
+}
+.cover{
+    display: flex;
+   margin-right: 2vh;
+   
+
+}
+.square{
+    width: 50vh;
+    height:20vw;
+    padding: 5vh;
+    margin: 8px;
+}
+.square:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#heading{
+    font-size: 40px;
+}
+.neo{
+    display: flex;
+}
+p{
+    font-weight: bold;
+}
+@media (max-width:960px){
+    
+        .square{
+            width: 50vh;
+            height:40vw;
+            padding: 5vh;
+            margin: 5vw;
+        }
+        .square:hover{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+        .cover{
+            display: flex;
+            flex-direction: column;
+          align-items: center;
+        }
+        .neo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .square p{
+            font-size: 14px;
+        }
+        .square p1{
+            font-size: 12px;
+        }
+        
+    }
